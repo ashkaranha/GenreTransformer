@@ -36,6 +36,9 @@ Throughout these experiments, we evaluate the quality of the output audio, how w
 **MORE GRAPHS AND DATA FROM MODEL CHECKPOINTS WILL GO HERE!**
 **ADDITIONAL DETAILS ABOUT THINGS WE STRUGGLED WITH WHILE USING GOOGLE COLAB WIlL GO HERE!**
 ---
+<img width="1212" height="849" alt="image" src="https://github.com/user-attachments/assets/4413fc58-c2ff-4699-88a0-e00728e7dd96" />
+
+<img width="1018" height="724" alt="image" src="https://github.com/user-attachments/assets/3c033e1a-e4bd-4052-ae81-7b0d3be9b776" />
 
 ### Audio Examples
 
