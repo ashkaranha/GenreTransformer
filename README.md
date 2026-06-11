@@ -77,7 +77,10 @@ Listen to how the models alter the genre of our test recordings:
 **Piano-Only Rock Model**
 
 * **Original Track:** [pop piano track](https://github.com/user-attachments/files/28854186/testPop.mp3)
-
+  <audio controls>
+  <source src="Audio/testPop.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
 * **Transformed Track, early model:** [early output](https://github.com/user-attachments/files/28854414/rave_outputEarlyPop.wav)
   
 * **Transformed Track, later model:** [late output](https://github.com/user-attachments/files/28854405/rave_outputPop.wav)
