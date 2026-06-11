@@ -63,7 +63,11 @@ Listen to how the models alter the genre of our test recordings:
 
 **Multi-Instrument Rock Model**
 
-* **Original Track: 365** [charli xcx - brat365.wav [𝔟𝔞𝔩𝔢𝔫𝔱𝔦𝔫𝔬 𝔯𝔢𝔪𝔦𝔵].mp3](https://github.com/user-attachments/files/28853651/charli.xcx.-.brat365.wav.mp3)
+* **Original Track: 365** [charli xcx - brat365.wav 𝔟𝔞𝔩𝔢𝔫𝔱𝔦𝔫𝔬 𝔯𝔢𝔪𝔦𝔵.mp3]()
+* <audio controls>
+  <source src="[audio/music.mp3](https://github.com/user-attachments/files/28853651/charli.xcx.-.brat365.wav.mp3)" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 * **Transformed Track, early model:** [365_rave_output_early.wav](https://github.com/user-attachments/files/28853919/365_rave_output_early.wav)
 
