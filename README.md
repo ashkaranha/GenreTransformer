@@ -44,8 +44,9 @@ Listen to how the models alter the genre of our test recordings:
 
 **Multi-Instrument Rock Model**
 
-* **Original Track:** LINK GOES HERE
-* **Transformed Track:** LINK GOES HERE
+* **Original Track:** [charli xcx - brat365.wav [𝔟𝔞𝔩𝔢𝔫𝔱𝔦𝔫𝔬 𝔯𝔢𝔪𝔦𝔵].mp3](https://github.com/user-attachments/files/28853651/charli.xcx.-.brat365.wav.mp3)
+
+* **Transformed Track:** [365_rave_output.wav](https://github.com/user-attachments/files/28853636/365_rave_output.wav)
 
 **Piano-Only Rock Model**
 
