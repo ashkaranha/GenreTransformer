@@ -49,8 +49,8 @@ In the end, as can be seen below, both models struggled with having an incredibl
 
 ### Graphs: Piano-Only, Later
 <img width="394" height="242" alt="Screenshot 2026-06-11 at 3 35 25 PM" src="https://github.com/user-attachments/assets/9690cce5-0520-4427-87d0-eb60b6b55533" />
-<img width="361" height="242" alt="Screenshot 2026-06-11 at 3 35 15 PM" src="https://github.com/user-attachments/assets/65a68c54-bfa5-4899-a6e0-0516c4786796" />
 <img width="587" height="259" alt="Screenshot 2026-06-11 at 3 34 46 PM" src="https://github.com/user-attachments/assets/6d173e38-537c-4a28-975f-d3298c2503cb" />
+<img width="361" height="242" alt="Screenshot 2026-06-11 at 3 35 15 PM" src="https://github.com/user-attachments/assets/65a68c54-bfa5-4899-a6e0-0516c4786796" />
 
 ### Graphs: Piano-Only, Early
 <img width="372" height="234" alt="Screenshot 2026-06-11 at 3 36 45 PM" src="https://github.com/user-attachments/assets/b18915f0-3c32-4110-bc44-163fb55b0858" />
