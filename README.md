@@ -41,11 +41,11 @@ In the end, as can be seen below, both models struggled with having an incredibl
 
 ---
 ### Graphs: General Model
-<img width="1200" height="849" alt="image" src="https://github.com/user-attachments/assets/4413fc58-c2ff-4699-88a0-e00728e7dd96" />
+<img width="394" height="242" alt="image" src="https://github.com/user-attachments/assets/4413fc58-c2ff-4699-88a0-e00728e7dd96" />
 
-<img width="1106" height="796" alt="Screenshot 2026-06-11 145856" src="https://github.com/user-attachments/assets/3cacbac2-b7fc-42a1-9b8a-8679804055ab" />
+<img width="394" height="242" alt="Screenshot 2026-06-11 145856" src="https://github.com/user-attachments/assets/3cacbac2-b7fc-42a1-9b8a-8679804055ab" />
 
-<img width="1000" height="724" alt="image" src="https://github.com/user-attachments/assets/3c033e1a-e4bd-4052-ae81-7b0d3be9b776" />
+<img width="394" height="242" alt="image" src="https://github.com/user-attachments/assets/3c033e1a-e4bd-4052-ae81-7b0d3be9b776" />
 
 ### Graphs: Piano-Only, Early
 <img width="394" height="242" alt="Screenshot 2026-06-11 at 3 35 25 PM" src="https://github.com/user-attachments/assets/9690cce5-0520-4427-87d0-eb60b6b55533" />
