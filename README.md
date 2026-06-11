@@ -62,8 +62,7 @@ Listen to how the models alter the genre of our test recordings:
 
 * **Original Track: Guitar** [looperman-l-5030382-0393827-upbeat-e-guitar-chords-rock-alt-rock-indie.wav](https://github.com/user-attachments/files/28854872/looperman-l-5030382-0393827-upbeat-e-guitar-chords-rock-alt-rock-indie.wav)
 
-* **Transformed Track:** [rave_output_guitar.wav](https://github.com/user-attachments/files/28854890/rave_output_guitar.wav)
-
+* **Transformed Track:** [rave_output_guitar.wav](https://github.com/user-attachments/files/28854997/rave_output_guitar.wav)
 
 
 **Piano-Only Rock Model**
@@ -78,7 +77,13 @@ Listen to how the models alter the genre of our test recordings:
 
 * Transformed Track:** [Charli piano rock(?)](https://github.com/user-attachments/files/28854494/rave_outputCharli.wav)
 
+---
 
+### Conclusions and Future Work
+
+* Not enough training time
+* RAVE picks up on beats quickly, then instrumentation
+* Training the general model on a varied dataset may lead to the generated audio being similar to the input
 ---
 
 ### Prior Art & References
