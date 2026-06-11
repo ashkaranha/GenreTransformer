@@ -1,4 +1,4 @@
-
+[365_rave_output_early.wav](https://github.com/user-attachments/files/28853918/365_rave_output_early.wav)
 # Genre Transformer (AutoRemixer)
 
 **Course:** EECS 352
@@ -46,7 +46,9 @@ Listen to how the models alter the genre of our test recordings:
 
 * **Original Track:** [charli xcx - brat365.wav [𝔟𝔞𝔩𝔢𝔫𝔱𝔦𝔫𝔬 𝔯𝔢𝔪𝔦𝔵].mp3](https://github.com/user-attachments/files/28853651/charli.xcx.-.brat365.wav.mp3)
 
-* **Transformed Track:** [365_rave_output.wav](https://github.com/user-attachments/files/28853636/365_rave_output.wav)
+* **Transformed Track, early model:** [365_rave_output_early.wav](https://github.com/user-attachments/files/28853919/365_rave_output_early.wav)
+
+* **Transformed Track, later model:** [365_rave_output.wav](https://github.com/user-attachments/files/28853636/365_rave_output.wav)
 
 **Piano-Only Rock Model**
 
