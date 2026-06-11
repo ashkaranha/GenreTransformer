@@ -1,4 +1,3 @@
-
 # Genre Transformer (AutoRemixer)
 
 **Course:** EECS 352
@@ -31,12 +30,32 @@ To evaluate the performance of our models, we run tests using multiple input rec
 * **Input Complexity:** We test simple inputs with very few instruments/effects and compare the results against more complex, fully produced inputs. We additionally test simple, piano-only inputs with a few effects and compare against more complex, stylized piano-only inputs.
 * **Genre Alignment:** We test inputs that are already of the target genre, inputs from a related genre, and inputs from a completely different genre.
 
-Throughout these experiments, we evaluate the quality of the output audio, how well the core melody of the input audio was preserved, and how close the output actually is to the target rock genre. We also baseline our system's performance against traditional pre-ML methods for genre transformation, such as EQ matching.
+Throughout these experiments, we evaluate the quality of the output audio, how well the core melody of the input audio was preserved, and how close the output actually is to the target rock genre.
 
+### Struggles, Barriers, and our Process
 
-**MORE GRAPHS AND DATA FROM MODEL CHECKPOINTS WILL GO HERE!**
-**ADDITIONAL DETAILS ABOUT THINGS WE STRUGGLED WITH WHILE USING GOOGLE COLAB WIlL GO HERE!**
+The first challenge we faced was that neither of us has taken an ML or AI class at Northwestern. This meant that we were learning as we worked through our project. 
+Having used Google CoLab and Jupyter notebooks in class, we started by attempting to train two RAVE models there. We knew that a multi-instrument model might be a stretch to train in such a limited amount of time, so we also attempted to train a single-instrument piano-based model. In training in CoLab, we found that we would easily hit GPU limits in the Google Cloud after roughly 3-4 hours. The quality of the free CoLab machine also limited how quickly the model was being trained in CoLab. 
+Eventually, we were able to train the single-instrument piano-based model in Northwestern's Quest machine. This allowed for an additional 8 hours of training on a machine with higher processing capabilities and, especially, a larger GPU. There was a learning curve to using Quest as well, but once this was resolved, Quest was clearly the best way to train the model while also utilizing our known pathway of Jupyter notebooks. 
+In the end, as can be seen below, both models struggled with having an incredible amount of noise in the final product. This is most likely due to latent space that it was picking up in the datasets. RAVE trains on everything in the data that it's given, which can result in not-clean products. 
+
 ---
+### Graphs: General Model
+<img width="394" height="242" alt="image" src="https://github.com/user-attachments/assets/4413fc58-c2ff-4699-88a0-e00728e7dd96" />
+
+<img width="394" height="242" alt="Screenshot 2026-06-11 145856" src="https://github.com/user-attachments/assets/3cacbac2-b7fc-42a1-9b8a-8679804055ab" />
+
+<img width="394" height="242" alt="image" src="https://github.com/user-attachments/assets/3c033e1a-e4bd-4052-ae81-7b0d3be9b776" />
+
+### Graphs: Piano-Only, Early
+<img width="587" height="259" alt="Screenshot 2026-06-11 at 3 34 46 PM" src="https://github.com/user-attachments/assets/6d173e38-537c-4a28-975f-d3298c2503cb" />
+<img width="361" height="242" alt="Screenshot 2026-06-11 at 3 35 15 PM" src="https://github.com/user-attachments/assets/65a68c54-bfa5-4899-a6e0-0516c4786796" />
+
+### Graphs: Piano-Only, Later
+<img width="375" height="242" alt="Screenshot 2026-06-11 at 3 36 16 PM" src="https://github.com/user-attachments/assets/42d44137-c801-4ab7-b88e-bdf810a910f1" />
+<img width="389" height="236" alt="Screenshot 2026-06-11 at 3 40 20 PM" src="https://github.com/user-attachments/assets/1032f2f9-7683-4c0b-b465-f6b1f759324a" />
+
+
 
 ### Audio Examples
 
@@ -44,14 +63,37 @@ Listen to how the models alter the genre of our test recordings:
 
 **Multi-Instrument Rock Model**
 
-* **Original Track:** LINK GOES HERE
-* **Transformed Track:** LINK GOES HERE
+* **Original Track: 365** [charli xcx - brat365.wav 𝔟𝔞𝔩𝔢𝔫𝔱𝔦𝔫𝔬 𝔯𝔢𝔪𝔦𝔵.mp3](https://github.com/user-attachments/files/28853651/charli.xcx.-.brat365.wav.mp3)
+
+* **Transformed Track, early model:** [365_rave_output_early.wav](https://github.com/user-attachments/files/28853919/365_rave_output_early.wav)
+
+* **Transformed Track, later model:** [365_rave_output.wav](https://github.com/user-attachments/files/28853636/365_rave_output.wav)
+
+* **Original Track: Guitar** [rock_guitar.wav](https://github.com/user-attachments/files/28854872/looperman-l-5030382-0393827-upbeat-e-guitar-chords-rock-alt-rock-indie.wav)
+
+* **Transformed Track:** [rave_output_guitar.wav](https://github.com/user-attachments/files/28854997/rave_output_guitar.wav)
+
 
 **Piano-Only Rock Model**
 
-* **Original Track:** LINK GOES HERE
-* **Transformed Track:** LINK GOES HERE
+* **Original Track:** [pop piano track](https://github.com/user-attachments/files/28854186/testPop.mp3)
 
+* **Transformed Track, early model:** [early output](https://github.com/user-attachments/files/28854414/rave_outputEarlyPop.wav)
+  
+* **Transformed Track, later model:** [late output](https://github.com/user-attachments/files/28854405/rave_outputPop.wav)
+
+* **Original Track:** [Charli piano transposition](https://github.com/user-attachments/files/28854462/CharliePiano.mp3)
+
+* Transformed Track:** [Charli piano rock(?)](https://github.com/user-attachments/files/28854494/rave_outputCharli.wav)
+
+---
+
+### Conclusions and Future Work
+
+* Not enough training time --> curious about how the model would sound after a week, or longer, of training
+* RAVE picks up on beats quickly, then instrumentation
+* Training the general model on a varied dataset may lead to the generated audio being similar to the input
+* Having a tightly controlled dataset can lead to easier generalization of the 'style' of the track
 ---
 
 ### Prior Art & References
