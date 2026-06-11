@@ -55,6 +55,8 @@ In the end, as can be seen below, both models struggled with having an incredibl
 ### Graphs: Piano-Only, Early
 <img width="372" height="234" alt="Screenshot 2026-06-11 at 3 36 45 PM" src="https://github.com/user-attachments/assets/b18915f0-3c32-4110-bc44-163fb55b0858" />
 <img width="375" height="242" alt="Screenshot 2026-06-11 at 3 36 16 PM" src="https://github.com/user-attachments/assets/42d44137-c801-4ab7-b88e-bdf810a910f1" />
+<img width="389" height="236" alt="Screenshot 2026-06-11 at 3 40 20 PM" src="https://github.com/user-attachments/assets/1032f2f9-7683-4c0b-b465-f6b1f759324a" />
+
 
 
 ### Audio Examples
@@ -90,9 +92,10 @@ Listen to how the models alter the genre of our test recordings:
 
 ### Conclusions and Future Work
 
-* Not enough training time
+* Not enough training time --> curious about how the model would sound after a week, or longer, of training
 * RAVE picks up on beats quickly, then instrumentation
 * Training the general model on a varied dataset may lead to the generated audio being similar to the input
+* Having a tightly controlled dataset can lead to easier generalization of the 'style' of the track
 ---
 
 ### Prior Art & References
