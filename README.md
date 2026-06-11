@@ -1,4 +1,3 @@
-[365_rave_output_early.wav](https://github.com/user-attachments/files/28853918/365_rave_output_early.wav)
 # Genre Transformer (AutoRemixer)
 
 **Course:** EECS 352
