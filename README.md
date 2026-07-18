@@ -4,7 +4,7 @@
 
 **Team Members:** April Wang, Ash Aranha
 
-**Repo:** https://github.com/thearsonistash/GenreTransformer
+**Repo:** https://github.com/ashkaranha/GenreTransformer
 ---
 
 ### Project Overview
